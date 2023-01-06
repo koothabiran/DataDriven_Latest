@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-03T10:27:18 IST" name="Default suite" finished-at="2023-01-03T10:29:53 IST" duration-ms="155735">
+    <groups>
+    </groups>
+    <test started-at="2023-01-03T10:27:18 IST" name="Default test" finished-at="2023-01-03T10:29:53 IST" duration-ms="155735">
+      <class name="DDFpack.test.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:DDFpack.test.LoginTest@7714e963]" started-at="2023-01-03T10:27:18 IST" name="init" finished-at="2023-01-03T10:27:18 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="doLoginTest(java.util.HashMap)[pri:0, instance:DDFpack.test.LoginTest@7714e963]" started-at="2023-01-03T10:27:20 IST" name="doLoginTest" data-provider="getData" finished-at="2023-01-03T10:28:33 IST" duration-ms="73731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, ExpectedResult=Sucess, Username=koothabirans@gmail.com, Browser=Chrome, Password=yazhisaivendan}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="testClosure()[pri:0, instance:DDFpack.test.LoginTest@7714e963]" started-at="2023-01-03T10:28:34 IST" name="testClosure" finished-at="2023-01-03T10:28:36 IST" duration-ms="2800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosure -->
+        <test-method signature="doLoginTest(java.util.HashMap)[pri:0, instance:DDFpack.test.LoginTest@7714e963]" started-at="2023-01-03T10:28:36 IST" name="doLoginTest" data-provider="getData" finished-at="2023-01-03T10:29:50 IST" duration-ms="73787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, ExpectedResult=Sucess, Username=koothabirans@gmail.com, Browser=Firefox, Password=yazhisaivendan}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="testClosure()[pri:0, instance:DDFpack.test.LoginTest@7714e963]" started-at="2023-01-03T10:29:50 IST" name="testClosure" finished-at="2023-01-03T10:29:53 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosure -->
+      </class> <!-- DDFpack.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
